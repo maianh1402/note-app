@@ -28,20 +28,18 @@ const Status = (props: StatusJob) => {
       <div className="flex cursor-pointer">
         {OPTION.map((opp, index) => {
           return (
-            <>
-              <div key={index}>
-                <p
-                  className={`${
-                    opp.value === status
-                      ? "text-[#f5f5f5] rounded-[4px] bg-[#3b9f70]"
-                      : ""
-                  } m-2 text-xs font-light min-w-[50px]`}
-                  onClick={() => onChangeStatus(opp.value)}
-                >
-                  {opp.label}
-                </p>
-              </div>
-            </>
+            <div key={index}>
+              <p
+                className={`${
+                  opp.value === status
+                    ? "text-[#f5f5f5] rounded-[4px] bg-[#3b9f70]"
+                    : ""
+                } m-2 text-xs font-light min-w-[50px]`}
+                onClick={() => onChangeStatus(opp.value)}
+              >
+                {opp.label}
+              </p>
+            </div>
           );
         })}
       </div>

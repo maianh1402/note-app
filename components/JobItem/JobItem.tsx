@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { AiOutlineDelete } from "react-icons/ai";
 import { MdModeEditOutline } from "react-icons/md";
-import { Job, defaultDate } from "../../../api/Job";
+import { Job } from "../../pages/api/Job";
 import dayjs from "dayjs";
 import { STATUS_TASK } from "@/constains";
 import Status from "../Status";

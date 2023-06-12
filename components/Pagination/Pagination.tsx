@@ -1,5 +1,5 @@
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
-import { Job } from "../../../api/Job";
+import { Job } from "../../pages/api/Job";
 
 interface ComponentPagination {
   setCurrentPage: (currentPage: number) => void;

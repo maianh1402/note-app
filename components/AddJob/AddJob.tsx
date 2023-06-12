@@ -60,8 +60,8 @@ const AddJob = ({
         onClick={() => addJob(input)}
       >
         <FcPlus />
-        <ToastContainer />
       </button>
+      <ToastContainer />
     </>
   );
 };

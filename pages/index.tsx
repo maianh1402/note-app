@@ -4,10 +4,10 @@ import { STATUS_TASK } from "@/constains";
 import { listJob, defaultDate, Job } from "./api/Job";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Status from "./note/components/Status";
-import Pagination from "./note/components/Pagination";
-import JobItem from "./note/components/JobItem";
-import AddJob from "./note/components/AddJob";
+import Status from "../components/Status";
+import Pagination from "../components/Pagination";
+import JobItem from "../components/JobItem";
+import AddJob from "../components/AddJob";
 import type { NextPage } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
